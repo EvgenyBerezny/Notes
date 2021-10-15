@@ -1,0 +1,94 @@
+.App {
+  margin: 10px;
+  -ms-hyphens: auto;
+-webkit-hyphens: auto;
+hyphens: auto;
+word-break: break-all;
+}
+
+#content {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+.App input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #3a49b1;
+  font-size: 16px;
+}
+.App .add-note{
+ padding: 10px;
+ margin: 10px 5px 5px 0px;
+ width: 250px;
+ height: 250px;
+ text-align: left;
+ color: #3a49b1;
+ font-size: 18px;
+ border-radius: 21px;
+ cursor: pointer;
+ background-color: #daff47;
+}
+
+.App .item-note .item-text {
+ display: inline-block;
+ cursor: pointer;
+}
+
+.App .notes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.App .note {
+  padding: 10px;
+  margin: 10px 5px 5px 0px;
+  width: 250px;
+  height: 250px;
+  text-align: left;
+  color: #3a49b1;
+  font-size: 18px;
+  border-radius: 21px;
+  cursor: pointer;
+  background-color: #daff47;
+  border: none;
+  font-size: 16px;
+}
+
+.App button {
+ padding: 5px 5px;
+ margin: 0px 5px;
+ font-size: 10px;
+ border: 1px solid #000;
+ border-radius: 5px;
+ cursor: pointer;
+ outline: none;
+ background-color: transparent;
+ color: #000;
+ text-transform: capitalize;
+ background-color: #cdcf39;
+}
+
+.App .buttons {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.App .item-note .item-delete {
+ display: inline-block;
+ cursor: pointer;
+ float: right;
+ margin-left: 225px;
+ font-size: 22px;
+ position: relative;
+ left: -4px;
+ bottom: 5px;
+}
+.nonitalics{
+  font-style: normal;
+}
+.italics {
+  font-style: italic;
+}
